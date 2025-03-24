@@ -1,0 +1,9 @@
+/**/data/mysql/*
+!/**/data/mysql/.gitkeep
+/**/data/apache/logs/*
+!/**/data/apache/logs/.gitkeep
+
+.env
+/vendor/
+composer.phar
+.vscode
