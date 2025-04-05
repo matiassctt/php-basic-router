@@ -15,8 +15,8 @@ $dotenv->load();
 spl_autoload_register(
     function ($class): void {
         Autoloader::register($class, [
-            // Unicamente la carpeta Service
-            "src/Service"
+            "src/Service",
+            "src/Infrastructure",
         ]);
     }
 );
